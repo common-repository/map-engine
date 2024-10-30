@@ -1,0 +1,132 @@
+.wme-add-new-map-popup-wrapper {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 99999;
+}
+
+.wme-add-new-map-popup-content {
+  z-index: 99999;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 450px;
+  background: #fff;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.wme-add-new-map-popup-body {
+  padding: 1rem;
+}
+
+.wme-add-new-map-popup-body form {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.wme-add-new-map-popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 1rem;
+}
+
+.wme-add-new-map-popup-header h2 {
+  margin: 0;
+}
+
+.wme-anm-close-btn {
+  cursor: pointer;
+}
+
+.wme-anm-engine-selector-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wme-anm-engine-selector {
+  border-radius: 50%;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.wme-anm-engine-selector:hover > div {
+  border: 3px solid #007cba;
+}
+
+.wme-anm-engine-selector > div{
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.wme-anm-engine-selector[data-engine='google'] > div {
+  background-image: url('../../gmap-192.png');
+  
+}
+
+.wme-anm-engine-selector[data-engine='os'] > div {
+  background-image: url('../../os-192.png');
+}
+
+.wme-anm-btn-wrapper {
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.wme-anm-btn {
+  background-color: #007cba;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.wme-anm-name-wrapper input {
+  width: 100%;
+}
+
+.wme-anm-engine-selector.selected > div {
+  border: 3px solid #007cba;
+}
+
+.wme-anm-label {
+  margin: 0.5rem 0 0 0;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.wme-anm-error {
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  color: red;
+  display: none;
+}
+
+#e-admin-top-bar-root:not(.e-admin-top-bar--active)
+  ~ #wpbody
+  .wrap
+  .page-title-action {
+  display: none;
+}
+
+.wme-google-api-notice{
+  color : red;
+}
+.wme-google-api-notice.hide{
+  display: none;
+}
+.wme-anm-btn:disabled{
+  background-color: #cccccc;
+  color: #666666;
+}

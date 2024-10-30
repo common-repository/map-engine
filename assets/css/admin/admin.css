@@ -1,0 +1,96 @@
+/* TODO:: ask - some height css is applying from global */
+.me-branding img {
+  height: 50px !important;
+}
+
+.post-type-me_maps.edit-php .wrap {
+  width: 85%;
+  margin: 50px auto 0 auto;
+}
+
+.me-admin-topbar {
+  margin: 0 0 0 -20px;
+  padding: 10px 20px 10px 20px;
+  background: #fff;
+  border: 1px solid #ccd0d4;
+  display: flex;
+  justify-content: space-between;
+}
+
+/** 
+Settings Page CSS
+**/
+
+.wme-settings-wrapper {
+  width: 85%;
+  margin: 50px auto auto auto;
+  display: flex;
+}
+
+.wme-settings-wrapper .wme-settings-nav {
+  width: 12.5rem;
+  margin-right: 20px;
+}
+
+.wme-settings-wrapper .wme-settings-nav a {
+  background-color: #fff;
+  display: block;
+  text-decoration: none;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  color: #5d696b;
+  box-shadow: 0 1px 4px rgb(18 25 97 / 8%);
+}
+
+.wme-settings-content {
+  background: #fff;
+  display: block;
+  width: 100%;
+  /* min-height: 500px; */
+  padding: 25px;
+  box-shadow: 0 1px 4px rgb(18 25 97 / 8%);
+}
+
+th.manage-column.column-me_shortcode{
+  width : 33%;
+}
+.column-me_map_engine .me-map-engine-value{
+  text-transform: uppercase;
+}
+.me-shortcode-wrapper {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgb(140, 143, 148);
+  width: 210px;
+  justify-content: space-between;
+  border-radius: 3px;
+}
+.me-shortcode-wrapper input,
+.me-shortcode-wrapper input:focus {
+  width: 180px;
+  border: none;
+  background: none;
+  box-shadow: none;
+}
+.me-shortcode-copy {
+  padding-right: 5px;
+}
+.me-shortcode-copy:hover {
+  cursor: pointer;
+}
+.wme-copied-notice {
+  background: #fff702;
+  width: 82px;
+  display: inline-flex;
+  padding: 4px;
+  z-index: 1;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.5s;
+  margin: auto;
+}
+
+/* Button near autocomplete */
+.wme-locate-marker {
+  padding: 5px;
+}

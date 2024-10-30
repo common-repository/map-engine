@@ -1,0 +1,9 @@
+.wme-polygon-popup-overlay {
+  margin-top: 6px !important;
+  margin-left: 0px !important;
+}
+
+.leaflet-marker-icon.leaflet-div-icon {
+  background: unset;
+  border: unset;
+}
